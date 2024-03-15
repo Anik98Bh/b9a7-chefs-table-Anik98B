@@ -1,0 +1,102 @@
+[
+    {
+        "recipe_id": 1,
+        "recipe_name": "Chicken Stir-Fry",
+        "recipe_img": "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fHN0aXIlMjBmcnklMjBjaGlja2VufGVufDB8fDB8fHww",
+        "short_description": "A delicious and easy-to-make chicken stir-fry with vegetables.",
+        "ingredients": [
+            "550g chicken breast",
+            "120ml soy sauce",
+            "200g broccoli florets",
+            "1 red bell pepper, sliced",
+            "2 cloves garlic, minced",
+            "1 tablespoon ginger, grated",
+            "2 tablespoons vegetable oil"
+        ],
+        "preparing_time": 30,
+        "calories": "320 calories"
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Pasta Primavera",
+        "recipe_img": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fFZlZ2V0YWJsZSUyMFBhc3RhfGVufDB8fDB8fHww",
+        "short_description": "A light and colorful pasta dish filled with seasonal vegetables.",
+        "ingredients": [
+            "300g penne pasta",
+            "1 cup cherry tomatoes, halved",
+            "1 yellow bell pepper, sliced",
+            "1 zucchini, diced",
+            "1 cup baby spinach leaves",
+            "2 cloves garlic, minced",
+            "3 tablespoons olive oil"
+        ],
+        "preparing_time": 25,
+        "calories": "280 calories"
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Grilled Salmon with Asparagus",
+        "recipe_img": "https://images.unsplash.com/photo-1523813301608-f54a198f6b5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fEdyaWxsZWQlMjBTYWxtb24lMjB3aXRoJTIwQXNwYXJhZ3VzfGVufDB8fDB8fHww",
+        "short_description": "Tender grilled salmon served with roasted asparagus spears.",
+        "ingredients": [
+            "4 salmon fillets",
+            "1 bunch asparagus, trimmed",
+            "2 tablespoons lemon juice",
+            "2 tablespoons olive oil",
+            "2 cloves garlic, minced",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": 20,
+        "calories": "350 calories"
+    },
+    {
+        "recipe_id": 4,
+        "recipe_name": "Caprese Salad",
+        "recipe_img": "https://i.postimg.cc/d3TzvvWm/Chicken-Caesar-Salad.jpg",
+        "short_description": "A classic Italian salad made with fresh tomatoes, mozzarella, and basil.",
+        "ingredients": [
+            "3 large tomatoes, sliced",
+            "250g fresh mozzarella cheese, sliced",
+            "1/4 cup fresh basil leaves",
+            "2 tablespoons balsamic glaze",
+            "2 tablespoons extra virgin olive oil",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": 15,
+        "calories": "220 calories"
+    },
+    {
+        "recipe_id": 5,
+        "recipe_name": "Mutton Tacos",
+        "recipe_img": "https://images.unsplash.com/photo-1625944228741-cf30983ecb91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fE11dHRvbiUyMFRhY29zfGVufDB8fDB8fHww",
+        "short_description": "Spicy ground mutton served in crispy taco shells with toppings.",
+        "ingredients": [
+            "500g ground mutton",
+            "1 packet taco seasoning",
+            "8 taco shells",
+            "1 cup shredded lettuce",
+            "1 tomato, diced",
+            "1/2 cup shredded cheddar cheese",
+            "1/4 cup sour cream"
+        ],
+        "preparing_time": 20,
+        "calories": "380 calories"
+    },
+    {
+        "recipe_id": 6,
+        "recipe_name": "Mushroom Risotto",
+        "recipe_img": "https://media.istockphoto.com/id/858699040/photo/fried-porcini-with-parsley-in-skillet.jpg?s=2048x2048&w=is&k=20&c=8Olr-YxlQ7KiS0KTKQTCJ3CQIirQkUKvpsE_-QzG4yE=",
+        "short_description": "Creamy risotto cooked with mushrooms and flavored with Parmesan cheese.",
+        "ingredients": [
+            "1 cup Arborio rice",
+            "200g mushrooms, sliced",
+            "4 cups vegetable broth",
+            "1/2 cup dry white wine",
+            "1 onion, finely chopped",
+            "2 cloves garlic, minced",
+            "1/4 cup grated Parmesan cheese"
+        ],
+        "preparing_time": 40,
+        "calories": "300 calories"
+    }
+]
