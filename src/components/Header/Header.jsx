@@ -1,4 +1,4 @@
-// import background from '../../assets/Banner.jpg'
+import background from '../../assets/Banner.png'
 
 const Header = () => {
     return (
@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="flex-1">
                     <a className="btn btn-ghost text-3xl font-bold">Recipe Calories</a>
                 </div>
-                <div className="navbar-center mr-44 flex gap-20">
+                <div className="navbar-center mr-36 flex gap-20">
                     <a className="text-[#150B2BB3]">Home</a>
                     <a className="text-[#150B2BB3]">Recipes</a>
                     <a className="text-[#150B2BB3]">About</a>
@@ -39,13 +39,16 @@ const Header = () => {
                 </div>
             </div>
             {/*  */}
-            <div className="hero min-h-screen" style={{ backgroundImage: <img></img> }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero min-h-screen mt-5 rounded-3xl" style={{ backgroundImage: 'url(../src/assets/Banner.png)' }}>
+                <div className=" bg-opacity-20"></div>
                 <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+                    <div className="w-2/3">
+                        <h1 className="mb-5 text-5xl font-bold">Discover an exceptional cooking class tailored for you!</h1>
+                        <p className="mb-5">The American Heart Association generally recommends eating fish, especially fatty fish like salmon, twice per week because it can improve heart health and may decrease the risk of stroke.</p>
+                        <div className='flex justify-evenly'>
+                            <button className="btn bg-[#0BE58A] border-none rounded-full">Explore Now</button>
+                            <button className="btn btn-outline border-white rounded-full text-white">Our Feedback</button>
+                        </div>
                     </div>
                 </div>
             </div>
