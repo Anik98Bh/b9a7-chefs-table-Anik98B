@@ -1,30 +1,28 @@
+import Cook from "../Cook/Cook";
 
 const Cooking = ({ cooking }) => {
     return (
-        <div className="w-1/3">
-            <h2>Cooking: {cooking.length}</h2>
-            <div className="overflow-x-auto">
+        <div className="w-1/3 h-full border rounded-2xl px-1">
+            <h2 className="text-xl font-semibold text-center">Want to cook: {cooking.length}</h2>
+            <hr className="my-4 border-dashed bg-red-500" />
+            <div className=" px-4">
                 <table className="table">
-                    {/* head */}
                     <thead>
                         <tr>
                             <th></th>
                             <th>Name</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>Time</th>
+                            <th>Calories</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        {/* row 1 */}
-                        <tr className="bg-base-200">
-                            <th>1</th>
-                            <td>Cy Ganderton</td>
-                            <td>Quality Control Specialist</td>
-                            <td>Blue</td>
-                        </tr>
-                    </tbody>
+
                 </table>
+                {
+                    cooking.map((cook) => <Cook key={cook.id} cook={cook}>
+                    </Cook>)
+                }
             </div>
+
         </div>
     );
 };
