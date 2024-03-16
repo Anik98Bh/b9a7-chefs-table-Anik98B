@@ -1,16 +1,23 @@
 
-const Cook = ({ cook }) => {
+
+const Cook = ({ cook, index, handleCurrentlyCooking }) => {
+
+
     const { recipe_name, preparing_time, calories } = cook;
+
+
+
     return (
-        <div className="bg-slate-300 rounded-xl mb-3 py-3">
-            <table className="table flex justify-around items-center ">
+        <div className="bg-slate-100 rounded-xl mb-3 py-3">
+            <table className="table">
                 <thead>
-                    <tr>
-                        <p>{}</p>
-                        <td>{recipe_name}</td>
-                        <td>{preparing_time}</td>
-                        <td>{calories}</td>
-                        <button className="btn btn-sm bg-[#0BE58A] rounded-full">Preparing</button>
+                    <tr className="flex items-center ">
+                        <td>{index + 1}</td>
+                        <td className="text-wrap">{recipe_name}</td>
+                        <td className="text-wrap">{preparing_time} min</td>
+                        <td className="text-wrap">{calories} calories</td>
+                        <td><button onClick={() => handleCurrentlyCooking(cook)} className="btn btn-sm bg-[#0BE58A] rounded-full">Preparing</button></td>
+
                     </tr>
                 </thead>
             </table>

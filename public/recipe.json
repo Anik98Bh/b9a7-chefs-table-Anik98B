@@ -14,7 +14,7 @@
             "2 tablespoons vegetable oil"
         ],
         "preparing_time": 30,
-        "calories": "320 calories"
+        "calories": 320
     },
     {
         "recipe_id": 2,
@@ -31,7 +31,7 @@
             "3 tablespoons olive oil"
         ],
         "preparing_time": 25,
-        "calories": "280 calories"
+        "calories": 280
     },
     {
         "recipe_id": 3,
@@ -47,7 +47,7 @@
             "Salt and pepper to taste"
         ],
         "preparing_time": 20,
-        "calories": "350 calories"
+        "calories": 350
     },
     {
         "recipe_id": 4,
@@ -64,7 +64,7 @@
             "1/4 cup sour cream"
         ],
         "preparing_time": 20,
-        "calories": "380 calories"
+        "calories": 380
     },
     {
         "recipe_id": 5,
@@ -80,7 +80,7 @@
             "Salt and pepper to taste"
         ],
         "preparing_time": 15,
-        "calories": "220 calories"
+        "calories": 220
     },
     {
         "recipe_id": 6,
@@ -97,6 +97,6 @@
             "1/4 cup grated Parmesan cheese"
         ],
         "preparing_time": 40,
-        "calories": "300 calories"
+        "calories": 300
     }
 ]

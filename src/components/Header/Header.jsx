@@ -1,4 +1,4 @@
-import background from '../../assets/Banner.png'
+
 
 const Header = () => {
     return (
@@ -38,7 +38,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            {/*  */}
+            {/* banner */}
             <div className="hero min-h-screen mt-5 rounded-3xl" style={{ backgroundImage: 'url(../src/assets/Banner.png)' }}>
                 <div className=" bg-opacity-20"></div>
                 <div className="hero-content text-center text-neutral-content">

@@ -7,8 +7,8 @@ const Recipe = ({ recipe, handleAddCook}) => {
         <div className="mb-20 p-8 border rounded-3xl">
             <div className=" bg-base-100">
                 <img className='rounded-3xl' src={recipe_img} alt="" />
-                <div className="">
-                    <h2 className="card-title">{recipe_name}</h2>
+                <div className="mt-6">
+                    <h2 className="card-title mb-3">{recipe_name}</h2>
                     <p>{short_description}</p>
                     <hr className="my-4 border-dashed bg-red-500" />
                     <div><span className="font-medium">Ingredients: {ingredients.length}</span>

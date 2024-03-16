@@ -3,13 +3,22 @@ import './App.css'
 import Cooking from './components/Cookings/Cooking'
 import Header from './components/Header/Header'
 import Recipes from './components/Recipes/Recipes'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [cooking, setCooking] = useState([]);
 
   const handleAddCook = recipe => {
     const newCooking = [...cooking, recipe];
-    setCooking(newCooking);
+    const isExist = cooking.find(item => item.recipe_id === recipe.recipe_id)
+    if (isExist) {
+      return toast("Already added!");
+    }
+    else {
+      setCooking(newCooking);
+    }
+
   }
 
   return (
@@ -25,8 +34,10 @@ function App() {
           <Recipes handleAddCook={handleAddCook}></Recipes>
           <Cooking
             cooking={cooking}
+            setCooking={setCooking}
           ></Cooking>
         </div>
+        <ToastContainer></ToastContainer>
       </div>
 
     </>
