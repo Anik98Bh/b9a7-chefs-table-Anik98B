@@ -39,7 +39,7 @@ const Header = () => {
                 </div>
             </div>
             {/* banner */}
-            <div className="hero min-h-screen mt-5 rounded-3xl" style={{ backgroundImage: 'url(../src/assets/Banner.png)' }}>
+            <div className="hero min-h-screen mt-5 rounded-3xl" style={{ backgroundImage: 'url(https://i.ibb.co/C87hJvc/Banner.png)' }}>
                 <div className=" bg-opacity-20"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="w-2/3">

@@ -26,21 +26,3 @@ const Cook = ({ cook, index, handleCurrentlyCooking }) => {
 };
 
 export default Cook;
-
-// {
-//     // cooking.map(cook => <Cook key={cook.id} cook={cook}></Cook>)
-//     cook.map(item => (
-//         <div key={item.id} className="overflow-x-auto">
-//             <table className="table">
-//                 {/* head */}
-//                 <thead>
-//                     <tr>
-//                         <th></th>
-//                         <td>{recipe_name}</td>
-//                         <td>{preparing_time}</td>
-//                         <td>{calories}</td>
-//                     </tr>
-//                 </thead>
-//             </table>
-//         </div>
-//     ))}
